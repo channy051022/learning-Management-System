@@ -8,6 +8,7 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: 'dashboard', component: () => import('pages/admin/AdminDashboardPage.vue') },
+      { path: 'report', component: () => import('pages/admin/AdminReportPage.vue') },
       { path: 'reports', component: () => import('pages/admin/AdminReportPage.vue') },
     ],
   },
